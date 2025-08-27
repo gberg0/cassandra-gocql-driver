@@ -31,7 +31,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/golang/snappy"
+	"github.com/klauspost/compress/snappy"
 )
 
 func TestSnappyCompressor(t *testing.T) {
