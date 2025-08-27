@@ -24,7 +24,7 @@
 
 package snappy
 
-import "github.com/golang/snappy"
+import "github.com/klauspost/compress/snappy"
 
 // SnappyCompressor implements the Compressor interface and can be used to
 // compress incoming and outgoing frames. The snappy compression algorithm
